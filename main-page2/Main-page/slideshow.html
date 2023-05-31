@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+</head>
+<body>
+    
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="main-page.css">
+    <body>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="register.html">Contact</a>
+      </div>
+      <!-- NAVBAR  -->
+      <div class="navbar">
+        <a id="main" style="margin-left: -33px">
+          <a class="openbtn" onclick="openNav()">☰</a>
+        </a>
+        <a class="active" href="slideshow.html">Home</a>
+        <a href="main-page.html#Portfolio">Portfolio</a>
+    
+      </div>
+    
+      <section>
+        <h2 style="color: gray; padding-top: 30px; font-size: 50px; padding-left: 30px; padding-bottom: 30px;">Introduction</h2>
+        <p style="padding-left: 30px; font-size: 20px;"><strong> Hi, We are photographer who loves to improve .</strong> <br>
+          We really want to learn from every single thing.<br>
+          <strong> and offer a better service to my clients by telling them that I can click beautiful photographs too!</strong>
+        </p>
+        <br>
+        <p style="padding-left: 30px; font-size: 20px; padding-bottom: 30px";><strong> We spend far too much time on the web, keeping one eye on Twitter and the other on</strong> <br>
+          <strong> to ensure I dont miss out single details to learn! As well as </strong><br>
+          <strong> We love clicking picture , this is not just a business this is passion.</strong>
+        </p>
+      </section>
+    <div class="slideshow-container">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 3</div>
+          <img src="image/1.jpg" style="width:100%;">
+          <div class="text" style="color: blue; font-family:cursive;">Slide One</div>
+        </div>
+        
+        <div class="mySlides">
+          <div class="numbertext">2 / 3</div>
+          <img src="image/2.jpg" style="width:100%;">
+          <div class="text"  style="color: blue; font-family:cursive;">Slide Two</div>
+        </div>
+        
+        <div class="mySlides">
+          <div class="numbertext">3 / 3</div>
+          <img src="image/3.jpg" style="width:100%;">
+          <div class="text"  style="color: blue; font-family:cursive;">Slide Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+          <footer>
+            <div class="footer-content">
+              <h3>Portfolio website</h3>
+              <p>A portfolio website is a unique way to showcase your work and let others know about yourself.</p>
+        
+            </div>
+        
+            <div class="footer-bottom">
+              <p>copyright &copy;2021 <a href="#">Portfolio</a> </p>
+            </div>
+          </footer>
+          
+          <script src="frontend.js">
+
+        </script>
+        <script src="slideshow.js">
+        </script>
+
+    
+    
+    
+</body>
+</html>

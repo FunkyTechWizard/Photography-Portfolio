@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iconic Photography</title>
+  <link rel="stylesheet" href="main-page.css">
+</head>
+
+<body>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="register.html">Contact</a>
+  </div>
+  <!-- NAVBAR  -->
+  <div class="navbar">
+    <a id="main" style="margin-left: -33px">
+      <a class="openbtn" onclick="openNav()">☰</a>
+    </a>
+    <a class="active" href="slideshow.html">Home</a>
+    <a href="#Portfolio">Portfolio</a>
+
+  </div>
+
+  <div style="padding-left:16px">
+
+    <div id="Portfolio">
+      <h1 style="text-align: center; margin-top: 10px;"> Portfolio Categories</h1>
+      <div class="border">
+        <h2>TAGS</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> #Nature</button>
+  <button class="btn" onclick="filterSelection('cars')"> #Cars</button>
+  <button class="btn" onclick="filterSelection('people')"> #People</button>
+</div>
+</div>
+
+      <script src="main-page.js">
+      </script>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-content">
+      <h3>Portfolio website</h3>
+      <p>A portfolio website is a unique way to showcase your work and let others know about yourself.</p>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>copyright &copy;2021 <a href="#">Portfolio</a> </p>
+    </div>
+  </footer>
+
+  
+
+
+</body>
+
+</html>
